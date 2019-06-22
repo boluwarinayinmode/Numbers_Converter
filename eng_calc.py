@@ -75,7 +75,7 @@ class Calc:
              elif a == "19":
                 return self.number2[9]
 
-    def convert_to_tys(self, a):          #twentys , thirthys , forties e.t.c trying to append.
+    def convert_to_tys(self, a):          #twentys , thirtys , forties e.t.c trying to append.
 
              if a == "20" or a == "2":
                 return self.number3[0]
@@ -208,29 +208,7 @@ class Calc:
                 return self.get_type(m[0:3]) + " " + self.worth[5] + " " + self.get_type(m[3:])
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-num = int(input("Change this number to its Word Form :"))
+num = int(input("Convert this numbers :"))
 
 sam = Calc()
 
